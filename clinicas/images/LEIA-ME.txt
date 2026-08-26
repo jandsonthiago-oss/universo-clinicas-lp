@@ -1,0 +1,40 @@
+IMAGENS NECESSÁRIAS — pasta images/
+====================================
+
+Este pacote não pôde incluir automaticamente as fotografias enviadas no
+pedido (o ambiente de geração não tem acesso de leitura binária às imagens
+anexadas na conversa). A página já está pronta para recebê-las: basta
+adicionar os arquivos abaixo, com estes nomes exatos, nesta mesma pasta.
+Nenhuma alteração de código é necessária — o HTML já aponta para esses
+caminhos e exibe um retrato provisório (iniciais) enquanto o arquivo não
+existir.
+
+Arquivos esperados:
+
+1. luciana.jpg
+   - Foto da Dra. Luciana Farias
+   - Recomendado: 800x800px, formato quadrado, boa iluminação, fundo neutro
+   - Usada na seção "Quem somos"
+
+2. thiago.jpg
+   - Foto de Thiago Porciuncula
+   - Recomendado: 800x800px, formato quadrado
+   - Usada na seção "Quem somos"
+
+3. logo-up.png (opcional)
+   - Logotipo oficial "Universo Previdenciário" (fundo transparente)
+   - Referenciado no JSON-LD de dados estruturados (schema.org/Organization)
+   - Se não for adicionado, não quebra a página — apenas fica ausente
+     para buscadores/redes sociais
+
+4. og-cover.jpg (opcional)
+   - Imagem de compartilhamento (Open Graph / redes sociais)
+   - Recomendado: 1200x630px
+   - Usada nas tags <meta property="og:image"> e <meta name="twitter:image">
+
+5. favicon.svg (já incluído)
+   - Ícone provisório com o monograma "UP" nas cores da marca
+   - Pode ser substituído por uma versão oficial em SVG ou PNG
+
+Após adicionar as fotos, basta enviar a pasta "clinicas/" inteira para a
+hospedagem — nenhum outro ajuste é necessário.
